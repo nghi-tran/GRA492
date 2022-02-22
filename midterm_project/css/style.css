@@ -1,4 +1,5 @@
 /* Default */
+/* Default */
 body {
   background-color: white;
   color: black;
@@ -103,8 +104,24 @@ img {
   align-items: right;
 }
 
+.card__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background: pink;
+}
+
+.card__header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .card__container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 20px;
   background: blue;
 }
@@ -117,7 +134,7 @@ img {
 }
 
 .card__title {
-  background: red;
+  background: green;
   font-weight: bold;
 }
 
