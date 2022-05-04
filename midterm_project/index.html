@@ -56,6 +56,11 @@
             All about potatoes.
             Website made by and for potato enthusiasts.
           </h1>
+
+          <button onclick="myFunction()">Try it</button>
+          <div id="myDIV">
+            This is my DIV element.
+          </div>
           <img src="img/potato.png" alt="A pototo of a lot of potatoes in a bowl">
       </div>
 
@@ -220,6 +225,19 @@
       </div>
     </div>
   </div>
+
+
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 
 
